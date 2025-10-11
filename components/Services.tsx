@@ -15,7 +15,7 @@ export default function Services() {
       price: "Desde 690€",
       monthly: "39€/mes",
       features: [
-        "Todo lo del Básico",
+        "Todo lo del plan Básico",
         "Base de datos para reservas/catálogo/blog",
         "Panel sencillo y emails de confirmación"
       ]

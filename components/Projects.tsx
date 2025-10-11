@@ -2,14 +2,14 @@ export default function Projects() {
   const items = [
     {
       title: "Relojes On-Time",
-      desc: "Web DEMO para relojería de barrio (local ficticio).",
+      desc: "Web DEMO para relojería de barrio .",
       img: "/assets/demo_relojes-ontime.png",
       href: "https://relojes-ontime.vercel.app"
     },
     {
-      title: "Clínica Sonrisa",
-      desc: "Web demo para clínica dental de barrio con formulario de citas.",
-      img: "/images/placeholder-clinica.jpg",
+      title: "Mi portfolio",
+      desc: "Web versátil para presentación de servicios o portfolio genérico.",
+      img: "/assets/demo_portfolio.png",
       href: "#"
     }
   ];
