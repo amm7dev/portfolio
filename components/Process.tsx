@@ -1,14 +1,15 @@
 export default function Process() {
   const steps = [
-    { title: "Briefing", text: "Reunión con el cliente para entender su negocio, público y objetivos. La IA ayuda a resumir la conversación en un documento claro." },
-    { title: "Wireframe", text: "Creación de la estructura visual inicial en Figma con ayuda de IA. Se define el orden de secciones y jerarquía de contenido." },
-    { title: "Scaffold", text: "Montaje técnico en Next.js + Tailwind. La IA genera el esqueleto base con componentes estándar y deploy de prueba en Vercel." },
-    { title: "Personalización", text: "Adaptación del diseño, colores, tipografías y textos reales del cliente. Se optimizan imágenes y accesibilidad." },
-    { title: "Funciones Dinámicas", text: "Implementación de formularios, bases de datos SQL o paneles de administración. Conexión mediante rutas API seguras." },
-    { title: "Optimización UX/SEO", text: "Pruebas de rendimiento, accesibilidad y experiencia de usuario. Ajustes basados en reportes Lighthouse." },
-    { title: "Publicación", text: "Deploy final en Vercel con dominio propio y SSL. Entrega de guía de uso al cliente y comprobación de formularios." },
-    { title: "Mantenimiento", text: "Actualizaciones mensuales, copias de seguridad, cambios ligeros y seguimiento de tráfico con Vercel Analytics." },
+    { title: "Briefing", text: "Reunión para entender negocio, objetivos, público y alcance. Documento de requisitos y calendario." },
+    { title: "Wireframe", text: "Estructura de la web en Figma: orden de secciones, jerarquía y versión mobile/desktop." },
+    { title: "Scaffold técnico", text: "Arranque del proyecto (Next.js + Tailwind), rutas, layout, componentes base y control de versiones." },
+    { title: "Contenido y estilo", text: "Redacción de textos, selección/optimización de imágenes, colores y tipografías; accesibilidad básica." },
+    { title: "Funciones dinámicas", text: "Formularios, validaciones, rutas API y conexión a base de datos/panel si aplica." },
+    { title: "Optimización UX/SEO", text: "Rendimiento, accesibilidad, metadatos, Open Graph, sitemap y microajustes de usabilidad." },
+    { title: "Despliegue", text: "Deploy en Vercel, dominio/SSL, pruebas de rutas y formularios, verificación final." },
+    { title: "Mantenimiento", text: "Actualizaciones, copias de seguridad, cambios ligeros y monitoreo de métricas." },
   ];
+
 
   return (
     <section id="proceso" className="section container">
