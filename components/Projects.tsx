@@ -7,9 +7,9 @@ export default function Projects() {
       href: "https://relojes-ontime.vercel.app"
     },
     {
-      title: "Cafe-del-Sol",
+      title: "Café del Sol",
       desc: "Web DEMO para cafetería de barrio.",
-      img: "/assets/demo_portfolio.png",
+      img: "/assets/cafe-del-sol.png",
       href: "https://cafe-del-sol.vercel.app"
     },
     {
