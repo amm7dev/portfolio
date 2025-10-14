@@ -46,7 +46,9 @@ export default function Services() {
           </div>
         ))}
       </div>
-      <p className="text-sm text-slate-500 mt-4">* Precios desde. +IVA si corresponde. Alcance cerrado y 1 ronda de cambios ligera.</p>
+      <p className="text-sm text-slate-500 mt-4">* Precios cerrados, IVA incluido.
+      €/mes corresponde a mantenimiento mensual de la página. Incluye pago de dominio propio
+      + correción de bugs y pequeños cambios</p>
     </section>
   );
 }
