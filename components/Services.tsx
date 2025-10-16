@@ -23,7 +23,6 @@ export default function Services() {
     {
       title: "E-commerce (a medida)",
       price: "Auditoría gratuita",
-      monthly: "Mantenimiento según alcance",
       features: [
         "Carrito + checkout",
         "Pasarela de pago (Stripe u otras)",
@@ -37,7 +36,7 @@ export default function Services() {
       <p className="lead mt-2">Tres caminos según tus necesidades de negocio.</p>
       <div className="mt-8 grid gap-6 sm:grid-cols-3">
         {plans.map((p,i)=> (
-          <div key={i} className="card">
+          <div key={i} className="card bg-gradient-to-tl from-white to-gold">
             <h3 className="text-xl font-semibold">{p.title}</h3>
             <div className="mt-2 text-2xl font-bold">{p.price} <span className="text-sm text-slate-500"> · {p.monthly}</span></div>
             <ul className="mt-4 space-y-1 text-slate-700">

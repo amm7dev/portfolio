@@ -17,7 +17,7 @@ export default function Process() {
       <p className="lead mt-2">Método rápido, transparente y enfocado en resultados.</p>
       <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {steps.map((s,i)=>(
-          <div key={i} className="card">
+          <div key={i} className="card bg-gradient-to-br from-cyan to-white  ">
             <div className="text-2xl font-bold">{String(i+1).padStart(2,'0')}</div>
             <h3 className="mt-2 text-lg font-semibold">{s.title}</h3>
             <p className="mt-1 text-slate-700">{s.text}</p>
